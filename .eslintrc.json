@@ -9,5 +9,15 @@
       "jsx": true
     }
   },
-  "extends": ["airbnb-base"]
+  "extends": ["airbnb", "airbnb/hooks"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["tomcat", "./src"]]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
 }
