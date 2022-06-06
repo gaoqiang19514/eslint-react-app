@@ -1,0 +1,8 @@
+/node_modules
+/.vscode
+/dist
+/*.log
+/i18n-dist
+/i18n-src
+*.min.*.js
+*.min.js
